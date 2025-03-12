@@ -111,7 +111,10 @@ go run cmd/agent/main.go
 ```
 4. Также можете запустить фронтенд в отдельном окне:
 ```sh
-go run web/main.go
+cd web
+```
+```sh
+go run main.go
 ```
 
 Также для проверки вы можете использовать программу Postman
