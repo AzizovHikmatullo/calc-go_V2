@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Web Interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Распределённый вычислитель арифметических выражений</h1>
+
+    <div class="form-section">
+        <h2>Отправить выражение</h2>
+        <form id="expressionForm">
+            <input type="text" id="expressionInput" placeholder="Введите выражение (например, 1+2*3)" required>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+
+    <div class="list-section">
+        <h2>Список выражений</h2>
+        <button id="refreshListButton">Обновить список</button>
+        <ul id="expressionsList"></ul>
+    </div>
+
+    <div class="details-section">
+        <h2>Найти выражение по ID</h2>
+        <input type="text" id="expressionIdInput" placeholder="Введите ID выражения">
+        <button id="getDetailsButton">Найти</button>
+        <pre id="expressionDetails"></pre>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
