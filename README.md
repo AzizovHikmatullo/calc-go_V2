@@ -78,7 +78,9 @@ Frontend доступен по адресу http://localhost:8081
 
 1. Склонируйте репозиторий и перейдите в папку
 ```sh
-git clone github.com/AzizovHikmatullo/calc-go_V2
+git clone https://github.com/AzizovHikmatullo/calc-go_V2
+```
+```sh
 cd calc-go_V2
 ```
 2. Установите зависимости
